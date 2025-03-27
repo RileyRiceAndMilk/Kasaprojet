@@ -44,7 +44,7 @@ const HomePage = () => {
 
       <main>
         <div className="image-montagne">
-          <img src="src/assets/montagne.jpg" alt="Fisheye Home Page" />
+          <img src="src/assets/montagne.jpg"/>
         </div>
 
         <section className="filter">
