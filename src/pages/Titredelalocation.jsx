@@ -57,7 +57,7 @@ const Titredelalocation = () => {
         <>
             <header>
                 <Link to="/" className="logo-link">
-                    <img src={logo} className="logo" alt="Logo Kasa" />
+                    <img src="/logo.png" className="logo" alt="Logo Kasa" />
                 </Link>
 
                 <nav className="link-container">
