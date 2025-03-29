@@ -52,7 +52,6 @@ const Titredelalocation = () => {
     const nextImage = () => {
         setCurrentImageIndex((prevIndex) => (prevIndex === logement.pictures.length - 1 ? 0 : prevIndex + 1));
     };
-
     return (
         <>
             <header>
