@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import "../css/style.css";
 
+import logoImage from '../assets/logo.png';
+import montagneImage from '../assets/montagne.jpg';
+import logoKasaImage from '../assets/logokasa.png';
+
 const HomePage = () => {
 
   const [fiabiliteVisible, setFiabiliteVisible] = useState(false);
