@@ -25,7 +25,7 @@ const Acceuil = () => {
         <>
             <header>
                 <Link to="/" className="logo-link">
-                    <img src="src/assets/logo.png" className="logo" alt="Logo Kasa" />
+                   <img src="/logo.png" className="logo" alt="Logo Kasa" />
                 </Link>
                 <nav className="link-container">
                     <Link to="/Acceuil" className="link-Acceuil">Accueil</Link>
