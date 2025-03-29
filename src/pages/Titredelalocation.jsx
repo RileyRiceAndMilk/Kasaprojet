@@ -57,7 +57,7 @@ const Titredelalocation = () => {
         <>
             <header>
                 <Link to="/" className="logo-link">
-                    <img src="/logo.png" className="logo" alt="Logo Kasa" />
+                    <img src={logo} className="logo" alt="Logo Kasa" />
                 </Link>
 
                 <nav className="link-container">
@@ -70,7 +70,7 @@ const Titredelalocation = () => {
                 <div className="image-logement">
                     <div className="carousel-container">
                         <i className="fa-solid fa-chevron-left carousel-icon carousel-icon-left" onClick={prevImage}></i>
-                       <img src={logement.pictures[currentImageIndex]} className="logement" alt={logement.title} />
+                        <img src={logement.pictures[currentImageIndex]} className="logement" alt={logement.title} />
                         <i className="fa-solid fa-chevron-right carousel-icon carousel-icon-right" onClick={nextImage}></i>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ const Titredelalocation = () => {
                                 onClick={toggleDescription}
                                 aria-expanded={isOpen}
                             >
-                                Description <i className={`fa-solid fa-chevron-${isOpen ? 'up' : 'down'}`}></i>
+                                Description <i className="fa-solid fa-chevron-down"></i>
                             </button>
                             <p className={isOpen ? "show" : "hidden"}>{logement.description}</p>
                         </div>
@@ -142,7 +142,7 @@ const Titredelalocation = () => {
                                 onClick={toggleEquipments}
                                 aria-expanded={isEquipmentsOpen}
                             >
-                                Équipements <i className={`fa-solid fa-chevron-${isEquipmentsOpen ? 'up' : 'down'}`}></i>
+                                Équipements <i className="fa-solid fa-chevron-down"></i>
                             </button>
                             <ul className={isEquipmentsOpen ? "show" : "hidden"}>
                                 {logement.equipments.map((equipement, index) => (
@@ -155,7 +155,7 @@ const Titredelalocation = () => {
             </main>
 
             <footer>
-               <img src="/logokasa.png" className="logo" alt="Logo Kasa" />
+                <img src={logoFooter} className="logo" alt="Logo Kasa" />
                 <p>2020 Kasa. All rights reserved.</p>
             </footer>
         </>
