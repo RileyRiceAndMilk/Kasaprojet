@@ -70,7 +70,7 @@ const Titredelalocation = () => {
                 <div className="image-logement">
                     <div className="carousel-container">
                         <i className="fa-solid fa-chevron-left carousel-icon carousel-icon-left" onClick={prevImage}></i>
-                        <img src={logement.pictures[currentImageIndex]} className="logement" alt={logement.title} />
+                       <img src={logement.pictures[currentImageIndex]} className="logement" alt={logement.title} />
                         <i className="fa-solid fa-chevron-right carousel-icon carousel-icon-right" onClick={nextImage}></i>
                     </div>
                 </div>
