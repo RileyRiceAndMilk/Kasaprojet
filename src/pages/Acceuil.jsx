@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/style.css";
 
+import logoImage from "../assets/logo.png";
+import merImage from "../assets/mer.jpg";
+import logoKasaImage from "../assets/logokasa.png";
+
 const Acceuil = () => {
     const [logements, setLogements] = useState([]);
 
