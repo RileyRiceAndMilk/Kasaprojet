@@ -155,7 +155,7 @@ const Titredelalocation = () => {
             </main>
 
             <footer>
-                <img src={logoFooter} className="logo" alt="Logo Kasa" />
+               <img src="/logokasa.png" className="logo" alt="Logo Kasa" />
                 <p>2020 Kasa. All rights reserved.</p>
             </footer>
         </>
