@@ -33,7 +33,7 @@ const HomePage = () => {
     <div>
       <header>
         <Link to="/" className="logo-link">
-         <img src="/logo.png" className="logo" alt="Logo Kasa" />
+          <img src="src/assets/logo.png" className="logo" alt="Logo Kasa" />
         </Link>
 
         <nav className="link-container">
@@ -44,7 +44,7 @@ const HomePage = () => {
 
       <main>
         <div className="image-montagne">
-          <img src="/montagne.jpg" alt="Montagne" />
+          <img src="src/assets/montagne.jpg" alt="Fisheye Home Page" />
         </div>
 
         <section className="filter">
@@ -113,7 +113,7 @@ const HomePage = () => {
       </main>
 
       <footer>
-        <img src="/logokasa.png" className="logo" alt="Logo Kasa" />
+        <img src="src/assets/logokasa.png" className="logo" alt="Logo Kasa" />
         <p>2020 Kasa. All rights reserved.</p>
       </footer>
     </div>
