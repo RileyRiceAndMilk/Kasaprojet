@@ -8,7 +8,7 @@ const NotFoundPage = () => {
       <header>
 
         <Link to="/" className="logo-link">
-          <img src="/logo.png" className="logo" alt="Logo Kasa" />
+          <img src="src/assets/logo.png" className="logo" alt="Logo Kasa" />
         </Link>
 
 
@@ -23,7 +23,7 @@ const NotFoundPage = () => {
         <Link to="/Acceuil" className="link-Acceuil">Retourner sur la page d'acceuil</Link>
       </main>
       <footer>
-        <img src="/logokasa.png" className="logo" alt="Logo Kasa" />
+        <img src="src/assets/logokasa.png" className="logo" alt="Logo Kasa" />
         <p>2020 Kasa. All rights reserved.</p>
       </footer>
     </body>
