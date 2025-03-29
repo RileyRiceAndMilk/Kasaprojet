@@ -9,7 +9,6 @@ const HomePage = () => {
   const [serviceVisible, setServiceVisible] = useState(false);
   const [securiteVisible, setSecuriteVisible] = useState(false);
 
- 
   const toggleVisibility = (section) => {
     switch (section) {
       case 'Fiabilite':
