@@ -35,7 +35,7 @@ const Acceuil = () => {
 
             <main>
                 <div className="image-montagne">
-                    <img src="src/assets/mer.jpg" className="banner" alt="Bannière mer" />
+                   <img src="/mer.jpg" className="banner" alt="Bannière mer" />
                 </div>
 
                 <section id="logements" className="logements">
@@ -59,7 +59,7 @@ const Acceuil = () => {
             </main>
 
             <footer>
-                <img src="src/assets/logokasa.png" className="logo" alt="Logo Kasa" />
+               <img src="/logokasa.png" className="logo" alt="Logo Kasa" />
                 <p>2020 Kasa. All rights reserved.</p>
             </footer>
         </>
