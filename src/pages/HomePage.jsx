@@ -45,7 +45,7 @@ const HomePage = () => {
 
       <main>
         <div className="image-montagne">
-          <img src="src/assets/montagne.jpg"/>
+          <img src="/montagne.jpg" alt="Montagne" />
         </div>
 
         <section className="filter">
