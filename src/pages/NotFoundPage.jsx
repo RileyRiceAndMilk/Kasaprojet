@@ -8,7 +8,7 @@ const NotFoundPage = () => {
       <header>
 
         <Link to="/" className="logo-link">
-          <img src="src/assets/logo.png" className="logo" alt="Logo Kasa" />
+          <img src="/logo.png" className="logo" alt="Logo Kasa" />
         </Link>
 
 
