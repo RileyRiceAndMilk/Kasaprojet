@@ -20,7 +20,6 @@ const Acceuil = () => {
                 console.error("Erreur lors du chargement des données", error);
             });
     }, []);
-
     return (
         <>
             <header>
