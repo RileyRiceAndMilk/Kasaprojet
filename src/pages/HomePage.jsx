@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import "../css/style.css";
-import logo from "src/assets/logo.png";
 
 const HomePage = () => {
 
