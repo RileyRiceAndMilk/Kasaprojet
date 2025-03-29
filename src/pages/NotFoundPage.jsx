@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import "../css/style.css";
 
+import logoImage from "../assets/logo.png";
+import logoKasaImage from "../assets/logokasa.png";
 const NotFoundPage = () => {
   return (
     <body>
